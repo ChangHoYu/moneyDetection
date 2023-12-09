@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 2px white;
+}
+
+.nav > a {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.nav > a:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+    color: gray;
+}
+
+.main {
+    background-color: black;
+    height: 80rem;
+    text-align: center;
+}
+
+.main > h2 {
+    color: white;
+}
+
+.main > p {
+    color: white;
+}

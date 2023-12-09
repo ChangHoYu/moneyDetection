@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'indexStyle.css' %}">
+    <title>MainPage</title>
+</head>
+<body>
+    <div class="nav">
+        <a href="http://127.0.0.1:8000/">Home</a>
+        <a href="http://127.0.0.1:8000/yolo">Yolo</a>
+        <a href="http://127.0.0.1:8000/cnn">CNN</a>
+    </div>
+
+    <div class="main">
+        <div class="Intro">
+            <p class="title">세계화 속 화폐를 모르시는 분들에게 이 서비스를 바칩니다.</p>
+        </div>
+    
+        <div class="modelIntro">
+            <div class="Yolo">
+                <h1>Yolo</h1>
+                <p>YOLO(You Only Look Once)는 최첨단 실시간 Object Detection 시스템입니다. 기존의 모델보다 빠르고 정확한 데이터 처리 속도를 자랑하며 화제를 몰고 왔죠. YOLO는 물체 감지와 객체 인식에 대한 딥러닝 기반 접근 방식입니다.</p>
+                <button>
+                    <a href="http://127.0.0.1:8000/yolo">GO</a>
+                </button>
+            </div>
+    
+            <div class="CNN">
+                <h1>CNN</h1>
+                <p>Convolutional neural network(CNN 또는 ConvNet)란 데이터로부터 직접 학습하는 딥러닝의 신경망 아키텍처입니다.</p>
+                <button>
+                    <a href="http://127.0.0.1:8000/cnn">GO</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="person">
+            <p>Made by YU, Jang, Son, Hwang</p>
+        </div>     
+    </div>
+</body>
+</html>
